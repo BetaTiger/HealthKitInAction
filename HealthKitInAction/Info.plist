@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+    <key>NSHealthShareUsageDescription</key>
+    <string>We would like to use your steps, flights climbed, and other health data to populate the app</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>We would like to share your water consumption, energy and BMI with other apps</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

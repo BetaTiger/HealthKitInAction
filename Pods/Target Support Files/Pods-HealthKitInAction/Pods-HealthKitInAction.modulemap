@@ -1,0 +1,6 @@
+framework module Pods_HealthKitInAction {
+  umbrella header "Pods-HealthKitInAction-umbrella.h"
+
+  export *
+  module * { export * }
+}
