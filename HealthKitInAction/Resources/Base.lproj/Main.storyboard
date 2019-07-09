@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ctc-rS-48G">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item2-->
+        <scene sceneID="pSx-sb-Ty4">
+            <objects>
+                <viewController id="TI1-aJ-6yw" userLabel="Item2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QXl-hp-9tx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BVl-S0-lIH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fitness" image="icon_user" id="tRv-LL-9Tw" userLabel="Item2" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="lUB-Nj-yPw" id="umK-9u-aa5"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LhR-Mr-0m5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="lUB-Nj-yPw" customClass="RAMLeftRotationAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="176"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="Nbc-dG-U8c">
+            <objects>
+                <viewController id="tfl-84-m1Z" userLabel="Item1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tqq-g3-Jim">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record your water usage here!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4Y-Tb-3lc">
+                                <rect key="frame" x="90" y="287" width="234" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9k-f8-UtA">
+                                <rect key="frame" x="157" y="428" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="loT-OH-efP"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="nax-fF-Yav"/>
+                                    <constraint firstAttribute="height" constant="40" id="zWF-E2-Bui"/>
+                                </constraints>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zs1-1I-MVj">
+                                <rect key="frame" x="286.5" y="358" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="DCm-ZB-jhp"/>
+                                    <constraint firstAttribute="height" constant="40" id="Jbb-ve-ORB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount (ml)" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vnI-Gg-QTM">
+                                <rect key="frame" x="137.5" y="358" width="139" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KhN-Z4-FJj"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="A4Y-Tb-3lc" firstAttribute="centerX" secondItem="tqq-g3-Jim" secondAttribute="centerX" id="1g5-Pn-vHn"/>
+                            <constraint firstItem="zs1-1I-MVj" firstAttribute="centerY" secondItem="vnI-Gg-QTM" secondAttribute="centerY" id="9A5-iH-Ogb"/>
+                            <constraint firstItem="J9k-f8-UtA" firstAttribute="centerX" secondItem="tqq-g3-Jim" secondAttribute="centerX" id="DEI-Sc-26U"/>
+                            <constraint firstItem="vnI-Gg-QTM" firstAttribute="top" secondItem="A4Y-Tb-3lc" secondAttribute="bottom" constant="50" id="bHH-2N-OgK"/>
+                            <constraint firstItem="vnI-Gg-QTM" firstAttribute="centerX" secondItem="J9k-f8-UtA" secondAttribute="centerX" id="fCE-6B-abf"/>
+                            <constraint firstItem="J9k-f8-UtA" firstAttribute="top" secondItem="vnI-Gg-QTM" secondAttribute="bottom" constant="30" id="nnH-fP-ODs"/>
+                            <constraint firstItem="J9k-f8-UtA" firstAttribute="centerY" secondItem="tqq-g3-Jim" secondAttribute="centerY" id="y6n-Sn-7hR"/>
+                            <constraint firstItem="zs1-1I-MVj" firstAttribute="leading" secondItem="vnI-Gg-QTM" secondAttribute="trailing" constant="10" id="zap-fL-bX8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h5y-5C-s9b"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Drink" image="drop" id="tWA-b9-zEL" userLabel="Item1" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="TGK-Zr-eng" id="LB2-Px-mey"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6y-VO-Kgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="TGK-Zr-eng" customClass="RAMBounceAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="-550"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="jyr-i2-fxP">
+            <objects>
+                <tabBarController id="Ctc-rS-48G" customClass="RAMAnimatedTabBarController" customModule="HealthKitInAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K96-Y4-PMv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tfl-84-m1Z" kind="relationship" relationship="viewControllers" id="qS8-5m-zJ3"/>
+                        <segue destination="TI1-aJ-6yw" kind="relationship" relationship="viewControllers" id="eEn-7j-rFf"/>
+                        <segue destination="cLZ-m7-oGx" kind="relationship" relationship="viewControllers" id="Xse-MA-1ix"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XwL-pX-FOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="-550"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="3vs-eS-VJt">
+            <objects>
+                <viewController id="cLZ-m7-oGx" userLabel="Item3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r7h-ev-hlg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RFI-9n-G4E"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="Tools_00028" id="jpK-up-rKc" userLabel="Item3" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="wvk-PD-8Fq" id="dSX-gR-h1R"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACL-hC-IfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="wvk-PD-8Fq" customClass="RAMFumeAnimation" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-42" y="160"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Tools_00028" width="30" height="30"/>
+        <image name="drop" width="24" height="24"/>
+        <image name="icon_user" width="30" height="30"/>
+    </resources>
+</document>
