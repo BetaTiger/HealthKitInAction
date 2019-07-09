@@ -1,24 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ctc-rS-48G">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item2-->
+        <scene sceneID="pSx-sb-Ty4">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="TI1-aJ-6yw" userLabel="Item2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PUp-WW-SAD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="y5e-KA-PlQ"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Fitness" image="icon_user" id="tRv-LL-9Tw" userLabel="Item2" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="lUB-Nj-yPw" id="umK-9u-aa5"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LhR-Mr-0m5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="lUB-Nj-yPw" customClass="RAMLeftRotationAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
             </objects>
+            <point key="canvasLocation" x="1129" y="176"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="Nbc-dG-U8c">
+            <objects>
+                <viewController id="tfl-84-m1Z" userLabel="Item1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tqq-g3-Jim">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h5y-5C-s9b"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Drink" image="drop" id="tWA-b9-zEL" userLabel="Item1" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="TGK-Zr-eng" id="LB2-Px-mey"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6y-VO-Kgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="TGK-Zr-eng" customClass="RAMBounceAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="-550"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="jyr-i2-fxP">
+            <objects>
+                <tabBarController id="Ctc-rS-48G" customClass="RAMAnimatedTabBarController" customModule="HealthKitInAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K96-Y4-PMv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tfl-84-m1Z" kind="relationship" relationship="viewControllers" id="qS8-5m-zJ3"/>
+                        <segue destination="TI1-aJ-6yw" kind="relationship" relationship="viewControllers" id="eEn-7j-rFf"/>
+                        <segue destination="cLZ-m7-oGx" kind="relationship" relationship="viewControllers" id="Xse-MA-1ix"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XwL-pX-FOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="-550"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="3vs-eS-VJt">
+            <objects>
+                <viewController id="cLZ-m7-oGx" userLabel="Item3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HmG-z9-p1y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="C0e-SU-gZw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="Tools_00028" id="jpK-up-rKc" userLabel="Item3" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="wvk-PD-8Fq" id="dSX-gR-h1R"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACL-hC-IfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="wvk-PD-8Fq" customClass="RAMFrameItemAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-42" y="160"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Tools_00028" width="30" height="30"/>
+        <image name="drop" width="24" height="24"/>
+        <image name="icon_user" width="30" height="30"/>
+    </resources>
 </document>
