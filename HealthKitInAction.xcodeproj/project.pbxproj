@@ -11,7 +11,6 @@
 		693D66EC22D4224D00915C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D66EB22D4224D00915C01 /* ViewController.swift */; };
 		693D66EF22D4224D00915C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693D66ED22D4224D00915C01 /* Main.storyboard */; };
 		693D66F122D4224E00915C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693D66F022D4224E00915C01 /* Assets.xcassets */; };
-		693D66F422D4224E00915C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693D66F222D4224E00915C01 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		693D66EB22D4224D00915C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		693D66EE22D4224D00915C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		693D66F022D4224E00915C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		693D66F322D4224E00915C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		693D66F522D4224E00915C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				693D66EB22D4224D00915C01 /* ViewController.swift */,
 				693D66ED22D4224D00915C01 /* Main.storyboard */,
 				693D66F022D4224E00915C01 /* Assets.xcassets */,
-				693D66F222D4224E00915C01 /* LaunchScreen.storyboard */,
 				693D66F522D4224E00915C01 /* Info.plist */,
 			);
 			path = HealthKitInAction;
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693D66F422D4224E00915C01 /* LaunchScreen.storyboard in Resources */,
 				693D66F122D4224E00915C01 /* Assets.xcassets in Resources */,
 				693D66EF22D4224D00915C01 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +145,6 @@
 				693D66EE22D4224D00915C01 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		693D66F222D4224E00915C01 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				693D66F322D4224E00915C01 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,9 +270,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZ4Y466F7Q;
 				INFOPLIST_FILE = HealthKitInAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatiger.HealthKitInAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,9 +290,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZ4Y466F7Q;
 				INFOPLIST_FILE = HealthKitInAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatiger.HealthKitInAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
