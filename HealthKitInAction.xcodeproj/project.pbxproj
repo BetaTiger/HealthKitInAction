@@ -116,11 +116,11 @@
 		6947E48D22D4759B00CFE8BD /* RAMAnimatedTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				6947E49422D4759B00CFE8BD /* Animations */,
 				6947E48E22D4759B00CFE8BD /* BottomLine */,
 				6947E49022D4759B00CFE8BD /* RAMAnimatedTabBarController.swift */,
 				6947E49122D4759B00CFE8BD /* RAMBadge */,
 				6947E49322D4759B00CFE8BD /* RAMItemAnimationProtocol.swift */,
-				6947E49422D4759B00CFE8BD /* Animations */,
 			);
 			name = RAMAnimatedTabBarController;
 			path = "../../../../../Downloads/animated-tab-bar-master/RAMAnimatedTabBarController";
