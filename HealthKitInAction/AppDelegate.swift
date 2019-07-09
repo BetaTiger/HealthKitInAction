@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  HealthKitInAction
 //
-//  Created by 徐岚 on 2019/7/9.
+//  Created by BetaTiger on 2019/7/9.
 //  Copyright © 2019 BetaTiger. All rights reserved.
 //
 
