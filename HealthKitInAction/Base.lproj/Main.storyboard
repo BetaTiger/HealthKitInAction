@@ -88,7 +88,7 @@
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACL-hC-IfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="wvk-PD-8Fq" customClass="RAMFrameItemAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
+                <customObject id="wvk-PD-8Fq" customClass="RAMFumeAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="-42" y="160"/>
         </scene>
