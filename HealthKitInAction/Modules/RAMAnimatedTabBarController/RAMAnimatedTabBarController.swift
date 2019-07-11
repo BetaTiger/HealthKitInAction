@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 import UIKit
-// MARK: Custom Badge
+import QMUIKit
 
 extension RAMAnimatedTabBarItem {
 
@@ -270,8 +270,6 @@ open class RAMAnimatedTabBarController: UITabBarController {
     var bottomLine: UIView?
     var arrBottomAnchor:[NSLayoutConstraint] = []
     var arrViews:[UIView] = []
-    
-    // MARK: life circle
 
     open override func viewDidLoad() {
         super.viewDidLoad()
@@ -283,15 +281,23 @@ open class RAMAnimatedTabBarController: UITabBarController {
     private func authorizeHealthKit() {
         HealthKitSetupAssistant.authorizeHealthKit { (authorized, error) in
             guard authorized else {
-                let msg = "Healthkit Authorization Failed"
+                
+                let baseMessage = "HealthKit Authorization Failed"
+                
                 guard let error = error else {
-                    print(msg)
+                    print(baseMessage)
+                    DispatchQueue.main.async {
+                            QMUITips.showError(baseMessage)
+                    }
                     return
                 }
-                print("Reason: \(error.localizedDescription)")
+                print("\(baseMessage). Reason: \(error.localizedDescription)")
+                DispatchQueue.main.async {
+                    QMUITips.showError("\(baseMessage). Reason: \(error.localizedDescription)")
+                }
                 return
             }
-            print("successful")
+            print("HealthKit Successfully Authorized.")
         }
     }
     

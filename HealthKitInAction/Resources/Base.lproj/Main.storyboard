@@ -96,10 +96,10 @@
             </objects>
             <point key="canvasLocation" x="1101" y="-550"/>
         </scene>
-        <!--Fitness-->
+        <!--Daily-->
         <scene sceneID="TWa-0t-CXB">
             <objects>
-                <tableViewController id="FnU-6f-uJG" sceneMemberID="viewController">
+                <tableViewController id="FnU-6f-uJG" customClass="DailyTableViewController" customModule="HealthKitInAction" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="A5Z-bJ-IDj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
                         <sections>
                             <tableViewSection headerTitle="Daily" id="MJb-fE-8e7">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eLN-ul-EHw">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eLN-ul-EHw">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLN-ul-EHw" id="NaH-Pv-9qJ">
@@ -139,7 +139,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8ms-iw-tTA">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8ms-iw-tTA">
                                         <rect key="frame" x="0.0" y="99.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ms-iw-tTA" id="nB4-w7-m5T">
@@ -171,7 +171,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fSD-8U-Cwt">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fSD-8U-Cwt">
                                         <rect key="frame" x="0.0" y="143.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fSD-8U-Cwt" id="krX-cF-8nP">
@@ -211,12 +211,17 @@
                             <outlet property="delegate" destination="FnU-6f-uJG" id="1r2-tc-X4h"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Fitness" image="icon_user" id="lqn-3W-q3z" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Daily" image="icon_user" id="lqn-3W-q3z" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
                         <connections>
                             <outlet property="animation" destination="lUB-Nj-yPw" id="NOB-fo-N1n"/>
                         </connections>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="flightsClimbedLabel" destination="ZoQ-IG-uy6" id="ThR-xd-2p0"/>
+                        <outlet property="stepsTakenLabel" destination="uxE-fE-YTg" id="kJn-dP-V8X"/>
+                        <outlet property="waterConsumedLabel" destination="lCW-Vq-LC1" id="PFj-jZ-jCb"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Brk-Qi-p5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="lUB-Nj-yPw" customClass="RAMLeftRotationAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
@@ -242,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="-41" y="-550"/>
         </scene>
-        <!--Info-->
+        <!--Profile-->
         <scene sceneID="gH9-YG-fbp">
             <objects>
-                <tableViewController id="5OX-Jk-yG0" sceneMemberID="viewController">
+                <tableViewController id="5OX-Jk-yG0" customClass="ProfileViewController" customModule="HealthKitInAction" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ona-8T-JB2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,7 +258,7 @@
                         <sections>
                             <tableViewSection headerTitle="WEIGHT &amp; HEIGHT" id="WAI-nY-0s5">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RGx-M2-Sdl">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RGx-M2-Sdl">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RGx-M2-Sdl" id="3Pn-5i-LHm">
@@ -285,7 +290,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kTC-Yd-Bpb">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kTC-Yd-Bpb">
                                         <rect key="frame" x="0.0" y="99.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kTC-Yd-Bpb" id="xjY-fl-FX6">
@@ -317,7 +322,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="c54-bb-rtV">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="c54-bb-rtV">
                                         <rect key="frame" x="0.0" y="143.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c54-bb-rtV" id="jII-mz-JCP">
@@ -353,7 +358,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="USER INFO" id="eus-zb-53c">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fyq-it-NkX">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fyq-it-NkX">
                                         <rect key="frame" x="0.0" y="243.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fyq-it-NkX" id="u8G-M1-OYV">
@@ -385,7 +390,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dLD-WR-Hju">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dLD-WR-Hju">
                                         <rect key="frame" x="0.0" y="287.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dLD-WR-Hju" id="L7k-pm-oWA">
@@ -417,7 +422,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="u7Q-jr-hMf">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="u7Q-jr-hMf">
                                         <rect key="frame" x="0.0" y="331.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u7Q-jr-hMf" id="TMa-GI-9lW">
@@ -457,12 +462,20 @@
                             <outlet property="delegate" destination="5OX-Jk-yG0" id="0Hr-22-cqA"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Info" image="Tools_00028" id="0Bh-6J-lHN" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Tools_00028" id="0Bh-6J-lHN" customClass="RAMAnimatedTabBarItem" customModule="HealthKitInAction" customModuleProvider="target">
                         <connections>
                             <outlet property="animation" destination="wvk-PD-8Fq" id="MiZ-ng-FUN"/>
                         </connections>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="AfG-AS-YpS" id="bLn-qq-rDd"/>
+                        <outlet property="biologicalSexLabel" destination="dvw-eQ-Fg0" id="rBp-x1-iwC"/>
+                        <outlet property="bloodTypeLabel" destination="3MK-nI-hOT" id="h8I-9z-cul"/>
+                        <outlet property="bodyMassIndexLabel" destination="dAV-I7-TUj" id="rTV-az-VaY"/>
+                        <outlet property="heightLabel" destination="iXe-si-1Ye" id="Nq7-9w-oj6"/>
+                        <outlet property="weightLabel" destination="RLv-u4-cRg" id="V9C-uI-Equ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAu-Jl-E6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="wvk-PD-8Fq" customClass="RAMFumeAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>
