@@ -22,6 +22,10 @@
 		6947E4E122D4826F00CFE8BD /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E4D722D4826F00CFE8BD /* RAMRotationAnimation.swift */; };
 		6947E4E222D4826F00CFE8BD /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E4D922D4826F00CFE8BD /* RAMBounceAnimation.swift */; };
 		6947E50422D48C2C00CFE8BD /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6947E50222D48C2C00CFE8BD /* ToolsAnimation.plist */; };
+		69E5A63422D6CCA90009CA26 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A63322D6CCA90009CA26 /* HealthKitSetupAssistant.swift */; };
+		69E5A69722D6DD040009CA26 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A69622D6DD040009CA26 /* DrinkViewController.swift */; };
+		69E5A69922D6E2910009CA26 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A69822D6E2910009CA26 /* ProfileDataStore.swift */; };
+		69E5A69B22D6E2B30009CA26 /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A69A22D6E2B30009CA26 /* UserHealthProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,11 @@
 		6947E4D722D4826F00CFE8BD /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
 		6947E4D922D4826F00CFE8BD /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		6947E50222D48C2C00CFE8BD /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		69E5A63322D6CCA90009CA26 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		69E5A68E22D6D6740009CA26 /* HealthKitInAction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthKitInAction-Bridging-Header.h"; sourceTree = "<group>"; };
+		69E5A69622D6DD040009CA26 /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		69E5A69822D6E2910009CA26 /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		69E5A69A22D6E2B30009CA26 /* UserHealthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHealthProfile.swift; sourceTree = "<group>"; };
 		976E7F59800EFECB29DAB2BD /* Pods-HealthKitInAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitInAction.debug.xcconfig"; path = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction.debug.xcconfig"; sourceTree = "<group>"; };
 		FD389166E0B6F9854D7B7A82 /* Pods-HealthKitInAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthKitInAction.release.xcconfig"; path = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +103,7 @@
 				693D66F522D4224E00915C01 /* Info.plist */,
 				6947E4C522D4821D00CFE8BD /* Modules */,
 				6947E4FF22D48C2C00CFE8BD /* Resources */,
+				69E5A68E22D6D6740009CA26 /* HealthKitInAction-Bridging-Header.h */,
 			);
 			path = HealthKitInAction;
 			sourceTree = "<group>";
@@ -101,6 +111,7 @@
 		6947E4C522D4821D00CFE8BD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				69E5A63122D6CC6D0009CA26 /* HealthKit */,
 				6947E4C822D4826F00CFE8BD /* RAMAnimatedTabBarController */,
 			);
 			path = Modules;
@@ -195,6 +206,41 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		69E5A63122D6CC6D0009CA26 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A69322D6DC990009CA26 /* Models */,
+				69E5A69222D6DC920009CA26 /* ViewController */,
+				69E5A63222D6CC840009CA26 /* Helpers */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		69E5A63222D6CC840009CA26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A63322D6CCA90009CA26 /* HealthKitSetupAssistant.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		69E5A69222D6DC920009CA26 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A69622D6DD040009CA26 /* DrinkViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		69E5A69322D6DC990009CA26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69E5A69822D6E2910009CA26 /* ProfileDataStore.swift */,
+				69E5A69A22D6E2B30009CA26 /* UserHealthProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		812EAEC9CF83A5D77A189F8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +284,7 @@
 				TargetAttributes = {
 					693D66E522D4224D00915C01 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
@@ -327,12 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E5A69B22D6E2B30009CA26 /* UserHealthProfile.swift in Sources */,
 				6947E4DC22D4826F00CFE8BD /* RAMBadge.swift in Sources */,
+				69E5A69922D6E2910009CA26 /* ProfileDataStore.swift in Sources */,
 				6947E4DA22D4826F00CFE8BD /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
 				6947E4DB22D4826F00CFE8BD /* RAMAnimatedTabBarController.swift in Sources */,
+				69E5A69722D6DD040009CA26 /* DrinkViewController.swift in Sources */,
 				6947E4E022D4826F00CFE8BD /* RAMTransitionItemAnimations.swift in Sources */,
 				693D66EA22D4224D00915C01 /* AppDelegate.swift in Sources */,
 				6947E4DF22D4826F00CFE8BD /* RAMFrameItemAnimation.swift in Sources */,
+				69E5A63422D6CCA90009CA26 /* HealthKitSetupAssistant.swift in Sources */,
 				6947E4DE22D4826F00CFE8BD /* RAMFumeAnimation.swift in Sources */,
 				6947E4E222D4826F00CFE8BD /* RAMBounceAnimation.swift in Sources */,
 				6947E4DD22D4826F00CFE8BD /* RAMItemAnimationProtocol.swift in Sources */,
@@ -476,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HealthKitInAction/HealthKitInAction.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZ4Y466F7Q;
@@ -489,6 +541,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatiger.HealthKitInAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthKitInAction/HealthKitInAction-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -500,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HealthKitInAction/HealthKitInAction.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZ4Y466F7Q;
@@ -513,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.betatiger.HealthKitInAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthKitInAction/HealthKitInAction-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

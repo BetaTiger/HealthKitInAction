@@ -7,6 +7,5 @@ target 'HealthKitInAction' do
 
   # Pods for HealthKitInAction
   pod 'RAMAnimatedTabBarController'
-  pod 'SCLAlertView'
-
+  pod 'IQKeyboardManagerSwift'
 end

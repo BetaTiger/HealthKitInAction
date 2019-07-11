@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SCLAlertViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char SCLAlertViewVersionString[];
+FOUNDATION_EXPORT double IQKeyboardManagerSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char IQKeyboardManagerSwiftVersionString[];
 

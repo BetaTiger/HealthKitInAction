@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import UIKit
-
 // MARK: Custom Badge
 
 extension RAMAnimatedTabBarItem {
@@ -132,6 +131,8 @@ open class RAMAnimatedTabBarItem: UITabBarItem {
         
         animation.deselectedState(iconView!.icon, textLabel: iconView!.textLabel)
     }
+    
+    
 }
 
 extension RAMAnimatedTabBarController {
@@ -275,7 +276,23 @@ open class RAMAnimatedTabBarController: UITabBarController {
     open override func viewDidLoad() {
         super.viewDidLoad()
         initializeContainers()
+        authorizeHealthKit()
         
+    }
+    
+    private func authorizeHealthKit() {
+        HealthKitSetupAssistant.authorizeHealthKit { (authorized, error) in
+            guard authorized else {
+                let msg = "Healthkit Authorization Failed"
+                guard let error = error else {
+                    print(msg)
+                    return
+                }
+                print("Reason: \(error.localizedDescription)")
+                return
+            }
+            print("successful")
+        }
     }
     
     fileprivate func initializeContainers() {

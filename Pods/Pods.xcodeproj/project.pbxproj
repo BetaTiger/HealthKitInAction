@@ -7,91 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CFD153C1663E326439E29886F46265B /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1532AA05862B64F05FA1DE7DE40E8 /* RAMBadge.swift */; };
-		298E4F1A7F3DFD1F512EF7561C18CD20 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEA5C8D6A5037595AD9B7A34813AB2 /* SCLAlertView.swift */; };
-		4205E4544A8F0DF171037CE730C23600 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D8BD82DEC8CC7FD55A087403C46D6 /* RAMFumeAnimation.swift */; };
-		5394C4DCB14CD55B19D088F07382AE14 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E4992D1CE99878DC6FB69C026EF0 /* SCLExtensions.swift */; };
-		54F4B7B8ED26C5E5E767EA7610FC2145 /* Pods-HealthKitInAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 459D7E080B08212D9B1E074FA1CD3F41 /* Pods-HealthKitInAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57765BAFB040F6735441AB67E7E79B9F /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148FD19B741BEB8DE71EA0D83E509F8 /* RAMItemAnimationProtocol.swift */; };
-		69437A6AA2866A54AACCCEA857664F47 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C17202636C8E4A9ECC75CDE9AF523100 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8013F896FC2ADA356ADD7C029DFD75A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9107E554AF648893C2AC5DB880D4E527 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463F16A9799684ECCA63ACA9B0B9FE8 /* RAMBounceAnimation.swift */; };
-		A00531195294693CDDE72B9C9523CA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A7F3092CFF1A81FAF376F2100F85CEC3 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAE0CEF900C95FF69FE185D680C470C /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B98733C303FFBD5D956071ED6940935F /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A2F70DD278841B3DF676ECB810CF /* SCLAlertView-dummy.m */; };
-		C0A1F0455FD2F2671B67400F71BC8CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D35CF1AD14A6DAE78EF96025EA357C21 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDEE6ED231EC078CA004B89883F92DE /* RAMTransitionItemAnimations.swift */; };
-		E081E53812DF48C2E6E1819016349495 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC6A400821301EA3C56C79CB217872 /* RAMFrameItemAnimation.swift */; };
-		E8821BA50B02A5A9507303BF81A871B1 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA4A14CA72F1D41CF51CA14EF185A8 /* RAMAnimatedTabBarController+BottomLine.swift */; };
-		F188A8E15A925526B322CEAF4F64C819 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A6A8A7081ADE6E4DB60D3823DD3EE /* RAMRotationAnimation.swift */; };
-		F6A55782608C5DBBB995EF9C2FB2EC12 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B15B692FB06FE14B4F1CAB71610807D /* RAMAnimatedTabBarController.swift */; };
-		F8E46DE1E65431DBA843813E38257588 /* Pods-HealthKitInAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5A4B31EBC1F0FCF1064B6280FA6911 /* Pods-HealthKitInAction-dummy.m */; };
-		F99DCAF4A18E487FDC16666B4D4F0346 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEC7EBE4E9FA36AA0E184050567A14 /* RAMAnimatedTabBarController-dummy.m */; };
+		08E427A032ADAB64225CA01C76E7E3A9 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3B7D8595B81C3237BAE1BF4234176 /* IQUIScrollView+Additions.swift */; };
+		0E4935C3FF49F4C66C5EE79A06B7E850 /* Pods-HealthKitInAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5A4B31EBC1F0FCF1064B6280FA6911 /* Pods-HealthKitInAction-dummy.m */; };
+		0FC427138A0D11CC18C78972E6D30E57 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39741A93F458E277E432B8B98F033D3 /* IQToolbar.swift */; };
+		16C70105CC51E3C73D1107FBEF78F521 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBC2862446F4BC0DD86C7145F03FCC /* IQUIView+Hierarchy.swift */; };
+		176D580D34B1957DF53471C4A2A9F3CD /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFFA39245ACE3476B20AA64B339F3A /* IQUIViewController+Additions.swift */; };
+		19C12C18218D5085864EB2DB2FA8B63C /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83C75FF4CA1AE1D73EF3814EB80CF5 /* IQKeyboardManagerConstants.swift */; };
+		1CFD153C1663E326439E29886F46265B /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD433F8014A3040FF09FAB72FC2725 /* RAMBadge.swift */; };
+		32FB52A492FD7BC12D9C81F24A666483 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F50F356FF1529E7DA6C34D6371B34 /* IQBarButtonItem.swift */; };
+		330DA634EB85DB4EAE9371494F1FB8E4 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C190A158A3776499993D39DD4DC5DE5 /* IQPreviousNextView.swift */; };
+		361B77EA491A6D2EA9053D734B8FA5BA /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47923488ED963C57D875E0583FA1C0D /* IQNSArray+Sort.swift */; };
+		3EC52C8A6BABE4066E466519E31C3E03 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9062AE3D920EFACE0E39A7B7D9A9479F /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4205E4544A8F0DF171037CE730C23600 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DD2EA9DBA784E934A797411ECFB96 /* RAMFumeAnimation.swift */; };
+		474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		57765BAFB040F6735441AB67E7E79B9F /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34494CE10C05F8D45C04EAB4A4512228 /* RAMItemAnimationProtocol.swift */; };
+		681342E5C18E296BF40684DDDC04D88B /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F8A8BD4C7C86D5E07B47C2669D627 /* IQUITextFieldView+Additions.swift */; };
+		6A02E3C707A1A104DCDD85953BC8BDEC /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2927C7FDC0C6CA3C41C21EC7EDE5A /* IQKeyboardManagerSwift-dummy.m */; };
+		6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
+		77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F205BBFF9A33A161649BA993418FDCA1 /* IQUIView+IQKeyboardToolbar.swift */; };
+		8013F896FC2ADA356ADD7C029DFD75A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4027D1F902758CE5C6A057EC2AEC4 /* IQKeyboardReturnKeyHandler.swift */; };
+		8CC2218B480DA0CD72829A5C4AEA8929 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2059F05ED73D7E9F785E499125325 /* IQInvocation.swift */; };
+		9107E554AF648893C2AC5DB880D4E527 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40532CF671F0CFF522A5A9617FAB813 /* RAMBounceAnimation.swift */; };
+		947A655566414FFCBF7CAC212CF91EA4 /* Pods-HealthKitInAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 459D7E080B08212D9B1E074FA1CD3F41 /* Pods-HealthKitInAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74B2AAE536688452611CA68F08EBC3A1 /* IQKeyboardManager.bundle */; };
+		A7F3092CFF1A81FAF376F2100F85CEC3 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 535417B02A691027B43262722A01F572 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BD556D43C16A24EDEFD9F3C16236E1 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06416D998554D287778F10EFFBCE52E1 /* IQTitleBarButtonItem.swift */; };
+		CC069B0287D9AD5428F0C35460A8DD33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		D0099A86CBA6F26922AA7EF1A517E189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		D35CF1AD14A6DAE78EF96025EA357C21 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95AA539D575F624308740F6A5E6A46 /* RAMTransitionItemAnimations.swift */; };
+		D55D066AB7BEC71F39DB7DA6532BA6DA /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DED8AAA548CFA0CC9B363E96699E8C /* IQKeyboardManager.swift */; };
+		E081E53812DF48C2E6E1819016349495 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156FA3ACA4284606E38FE2017001298 /* RAMFrameItemAnimation.swift */; };
+		E8821BA50B02A5A9507303BF81A871B1 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE91911F24EC46B39D05597C205A9C /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		F15EBF3D52451407FC4611128D846BEC /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDADBF99ACA48846FFBD66FABF6495C /* IQTextView.swift */; };
+		F188A8E15A925526B322CEAF4F64C819 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506BBAC632B72B3157FED03F1AA2EC1 /* RAMRotationAnimation.swift */; };
+		F6A55782608C5DBBB995EF9C2FB2EC12 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B15B66D4A4C890C5C7571FBDF6EB136 /* RAMAnimatedTabBarController.swift */; };
+		F99DCAF4A18E487FDC16666B4D4F0346 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F09FC0854A3795212ABFBB0C03DA274 /* RAMAnimatedTabBarController-dummy.m */; };
+		FB37642881B8D1191B1E60BBE6AAD4D7 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B354F00025DE3D508907396891E3C0 /* IQKeyboardManagerConstantsInternal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BA84A3032B07A0A5A39A6B2F3A418CB1 /* PBXContainerItemProxy */ = {
+		46F30C20BB161078B04501061D3353CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		9F1A8ED5408FCA9ECBBF8EAB7C432EBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DED4DEF356A163E50925101C3C7C0FB9;
 			remoteInfo = RAMAnimatedTabBarController;
 		};
-		E3A1BFC7F5AC32226DF829AC923F20B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0152970E5467A11DF89E7D22C63B47C;
-			remoteInfo = SCLAlertView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033D8BD82DEC8CC7FD55A087403C46D6 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
 		04C23CF7D4663D1EB8E0D11BBF28476C /* Pods-HealthKitInAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthKitInAction.debug.xcconfig"; sourceTree = "<group>"; };
-		0A0B29638861FB70A02C90579DB82BD7 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		1463F16A9799684ECCA63ACA9B0B9FE8 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		06416D998554D287778F10EFFBCE52E1 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		08AA419B89BC2DF1A6142486C16265B7 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		08AB03D57A754F61284DC886B30DAF79 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		0B1352E2FAA9FFA21A8589BB6EC1C656 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		0D5F50F356FF1529E7DA6C34D6371B34 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		15613E03E20E19321DD6819C961156EF /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		181EDC460A52A062082603DE6F3371E6 /* Pods-HealthKitInAction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthKitInAction-Info.plist"; sourceTree = "<group>"; };
-		24EC6A400821301EA3C56C79CB217872 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		2C16A2F70DD278841B3DF676ECB810CF /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
-		2FDA4A14CA72F1D41CF51CA14EF185A8 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/BottomLine/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39B51A16D3FAB58019A45FFA78D7A19A /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		1BB4027D1F902758CE5C6A057EC2AEC4 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		34494CE10C05F8D45C04EAB4A4512228 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		37B354F00025DE3D508907396891E3C0 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		38FA65884F66138AA7C7653836F25454 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
 		3A80BACFF33EB32803421B1153CFFC5D /* Pods-HealthKitInAction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthKitInAction-acknowledgements.plist"; sourceTree = "<group>"; };
-		41B34BCA15A512ACC0F6BB7E8E7E3219 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		3DB2059F05ED73D7E9F785E499125325 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		3E8F8A8BD4C7C86D5E07B47C2669D627 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		459D7E080B08212D9B1E074FA1CD3F41 /* Pods-HealthKitInAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthKitInAction-umbrella.h"; sourceTree = "<group>"; };
-		5013BD683C1BCDE80B9F1B2D64EF62A8 /* RAMAnimatedTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RAMAnimatedTabBarController-Info.plist"; sourceTree = "<group>"; };
+		46CD433F8014A3040FF09FAB72FC2725 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		4DFBC2862446F4BC0DD86C7145F03FCC /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		535417B02A691027B43262722A01F572 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
 		5365E45C10AF7FAD723C16D9253D3AA1 /* Pods_HealthKitInAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthKitInAction.framework; path = "Pods-HealthKitInAction.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53ECC033B44E4F483B2DD1FFE9A5FC7E /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		5506BBAC632B72B3157FED03F1AA2EC1 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		57D110B2DD3C0170154FFE5AB1228AAC /* Pods-HealthKitInAction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthKitInAction-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5C119C5844240B278E57758C47D3D0E6 /* SCLAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCLAlertView-Info.plist"; sourceTree = "<group>"; };
+		5B83C75FF4CA1AE1D73EF3814EB80CF5 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		5C190A158A3776499993D39DD4DC5DE5 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		5F09FC0854A3795212ABFBB0C03DA274 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
 		6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DAE0CEF900C95FF69FE185D680C470C /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		79DBB6644C83F43F2CFFBCA0D3993614 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
-		82CEA5C8D6A5037595AD9B7A34813AB2 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
-		89DEC7EBE4E9FA36AA0E184050567A14 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
-		8E0A6A8A7081ADE6E4DB60D3823DD3EE /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		970B0C7ED1385BB9F104AD02529630C3 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
-		9B15B692FB06FE14B4F1CAB71610807D /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		6B15B66D4A4C890C5C7571FBDF6EB136 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		74B2AAE536688452611CA68F08EBC3A1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76DED8AAA548CFA0CC9B363E96699E8C /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		9062AE3D920EFACE0E39A7B7D9A9479F /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		9632E822A7920B1A9DCE31E423C36573 /* RAMAnimatedTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RAMAnimatedTabBarController-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACC1532AA05862B64F05FA1DE7DE40E8 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		A156FA3ACA4284606E38FE2017001298 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		A47923488ED963C57D875E0583FA1C0D /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A4B31EBC1F0FCF1064B6280FA6911 /* Pods-HealthKitInAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthKitInAction-dummy.m"; sourceTree = "<group>"; };
-		C17202636C8E4A9ECC75CDE9AF523100 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
-		CBDEE6ED231EC078CA004B89883F92DE /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
-		D148FD19B741BEB8DE71EA0D83E509F8 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
-		D1B8E4992D1CE99878DC6FB69C026EF0 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		B0EFFA39245ACE3476B20AA64B339F3A /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BEDADBF99ACA48846FFBD66FABF6495C /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		CCC2927C7FDC0C6CA3C41C21EC7EDE5A /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
 		D680444129C35002CC70FE82144DC75C /* Pods-HealthKitInAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthKitInAction.modulemap"; sourceTree = "<group>"; };
-		DBE8EF62FABD82551E580FAF4A3CA815 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
 		E11F69DA70DD5D91FA47A734CF4DA0EC /* Pods-HealthKitInAction-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthKitInAction-frameworks.sh"; sourceTree = "<group>"; };
+		E1B3B7D8595B81C3237BAE1BF4234176 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E39741A93F458E277E432B8B98F033D3 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		E40532CF671F0CFF522A5A9617FAB813 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		E5916CFBF573924BB7A2DAEADE42083F /* Pods-HealthKitInAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthKitInAction.release.xcconfig"; sourceTree = "<group>"; };
+		EDFE91911F24EC46B39D05597C205A9C /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/BottomLine/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		EFAB3A7F2782CA09CB6553779C238952 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		F19DD2EA9DBA784E934A797411ECFB96 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		F205BBFF9A33A161649BA993418FDCA1 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		FF95AA539D575F624308740F6A5E6A46 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03B5D362B75E1F27D5669A43D702BC8A /* Frameworks */ = {
+		28227F929CC187BDBBC2A9491F4139B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00531195294693CDDE72B9C9523CA66 /* Foundation.framework in Frameworks */,
+				D0099A86CBA6F26922AA7EF1A517E189 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AFD59673947704DF970986A16AE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */,
+				474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */,
+				CC069B0287D9AD5428F0C35460A8DD33 /* QuartzCore.framework in Frameworks */,
+				A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,42 +150,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C4723AA2F6B0C13FEA3CFE8EF1C9CA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0A1F0455FD2F2671B67400F71BC8CDF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1499D54DCAC154A57AE3E6AB1A34A6F2 /* Pods */ = {
+		13EAD777ED1E292CF3D1160E0B12867B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E6C3B7F3716B7CF92CA2A53FA207187 /* RAMAnimatedTabBarController */,
-				F5321AB68C03B712B0F6BBD8DB98A096 /* SCLAlertView */,
+				38FA65884F66138AA7C7653836F25454 /* RAMAnimatedTabBarController.modulemap */,
+				EFAB3A7F2782CA09CB6553779C238952 /* RAMAnimatedTabBarController.xcconfig */,
+				5F09FC0854A3795212ABFBB0C03DA274 /* RAMAnimatedTabBarController-dummy.m */,
+				9632E822A7920B1A9DCE31E423C36573 /* RAMAnimatedTabBarController-Info.plist */,
+				08AB03D57A754F61284DC886B30DAF79 /* RAMAnimatedTabBarController-prefix.pch */,
+				535417B02A691027B43262722A01F572 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		216D11D6253026459814863746CC99A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
+				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
+				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
+				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2FE6B317DEDED82B2DB64C55961C6DB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B1352E2FAA9FFA21A8589BB6EC1C656 /* IQKeyboardManagerSwift.modulemap */,
+				08AA419B89BC2DF1A6142486C16265B7 /* IQKeyboardManagerSwift.xcconfig */,
+				CCC2927C7FDC0C6CA3C41C21EC7EDE5A /* IQKeyboardManagerSwift-dummy.m */,
+				15613E03E20E19321DD6819C961156EF /* IQKeyboardManagerSwift-Info.plist */,
+				53ECC033B44E4F483B2DD1FFE9A5FC7E /* IQKeyboardManagerSwift-prefix.pch */,
+				9062AE3D920EFACE0E39A7B7D9A9479F /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		482E7A77E9BA800A5CC93D308890BD92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				5365E45C10AF7FAD723C16D9253D3AA1 /* Pods_HealthKitInAction.framework */,
+				6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818F010B1B958B2B9F6D486A43BB0DFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF0DC223E66B52F540C6B259F81F1F /* IQKeyboardManagerSwift */,
+				C435BA9E3840226654F735D71074BD7C /* RAMAnimatedTabBarController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4E6C3B7F3716B7CF92CA2A53FA207187 /* RAMAnimatedTabBarController */ = {
+		83C1A6C44EC549B23CB6F2A73E529AE8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9B15B692FB06FE14B4F1CAB71610807D /* RAMAnimatedTabBarController.swift */,
-				2FDA4A14CA72F1D41CF51CA14EF185A8 /* RAMAnimatedTabBarController+BottomLine.swift */,
-				ACC1532AA05862B64F05FA1DE7DE40E8 /* RAMBadge.swift */,
-				1463F16A9799684ECCA63ACA9B0B9FE8 /* RAMBounceAnimation.swift */,
-				24EC6A400821301EA3C56C79CB217872 /* RAMFrameItemAnimation.swift */,
-				033D8BD82DEC8CC7FD55A087403C46D6 /* RAMFumeAnimation.swift */,
-				D148FD19B741BEB8DE71EA0D83E509F8 /* RAMItemAnimationProtocol.swift */,
-				8E0A6A8A7081ADE6E4DB60D3823DD3EE /* RAMRotationAnimation.swift */,
-				CBDEE6ED231EC078CA004B89883F92DE /* RAMTransitionItemAnimations.swift */,
-				E9B5D6C6976C8CE22780301A93A69612 /* Support Files */,
+				74B2AAE536688452611CA68F08EBC3A1 /* IQKeyboardManager.bundle */,
 			);
-			name = RAMAnimatedTabBarController;
-			path = RAMAnimatedTabBarController;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		93771EC8E12F5E4F39F87F07542A87A1 /* Pods-HealthKitInAction */ = {
@@ -158,55 +236,67 @@
 			path = "Target Support Files/Pods-HealthKitInAction";
 			sourceTree = "<group>";
 		};
-		AF88768F4E2DFD25BA0A1036434F6A66 /* Products */ = {
+		9DCF0DC223E66B52F540C6B259F81F1F /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				5365E45C10AF7FAD723C16D9253D3AA1 /* Pods_HealthKitInAction.framework */,
-				6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */,
-				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */,
+				0D5F50F356FF1529E7DA6C34D6371B34 /* IQBarButtonItem.swift */,
+				3DB2059F05ED73D7E9F785E499125325 /* IQInvocation.swift */,
+				76DED8AAA548CFA0CC9B363E96699E8C /* IQKeyboardManager.swift */,
+				5B83C75FF4CA1AE1D73EF3814EB80CF5 /* IQKeyboardManagerConstants.swift */,
+				37B354F00025DE3D508907396891E3C0 /* IQKeyboardManagerConstantsInternal.swift */,
+				1BB4027D1F902758CE5C6A057EC2AEC4 /* IQKeyboardReturnKeyHandler.swift */,
+				A47923488ED963C57D875E0583FA1C0D /* IQNSArray+Sort.swift */,
+				5C190A158A3776499993D39DD4DC5DE5 /* IQPreviousNextView.swift */,
+				BEDADBF99ACA48846FFBD66FABF6495C /* IQTextView.swift */,
+				06416D998554D287778F10EFFBCE52E1 /* IQTitleBarButtonItem.swift */,
+				E39741A93F458E277E432B8B98F033D3 /* IQToolbar.swift */,
+				E1B3B7D8595B81C3237BAE1BF4234176 /* IQUIScrollView+Additions.swift */,
+				3E8F8A8BD4C7C86D5E07B47C2669D627 /* IQUITextFieldView+Additions.swift */,
+				4DFBC2862446F4BC0DD86C7145F03FCC /* IQUIView+Hierarchy.swift */,
+				F205BBFF9A33A161649BA993418FDCA1 /* IQUIView+IQKeyboardToolbar.swift */,
+				B0EFFA39245ACE3476B20AA64B339F3A /* IQUIViewController+Additions.swift */,
+				83C1A6C44EC549B23CB6F2A73E529AE8 /* Resources */,
+				2FE6B317DEDED82B2DB64C55961C6DB7 /* Support Files */,
 			);
-			name = Products;
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				216D11D6253026459814863746CC99A1 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C603014CFB98A13489F0EC27442A5929 /* Support Files */ = {
+		C435BA9E3840226654F735D71074BD7C /* RAMAnimatedTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				970B0C7ED1385BB9F104AD02529630C3 /* SCLAlertView.modulemap */,
-				41B34BCA15A512ACC0F6BB7E8E7E3219 /* SCLAlertView.xcconfig */,
-				2C16A2F70DD278841B3DF676ECB810CF /* SCLAlertView-dummy.m */,
-				5C119C5844240B278E57758C47D3D0E6 /* SCLAlertView-Info.plist */,
-				79DBB6644C83F43F2CFFBCA0D3993614 /* SCLAlertView-prefix.pch */,
-				C17202636C8E4A9ECC75CDE9AF523100 /* SCLAlertView-umbrella.h */,
+				6B15B66D4A4C890C5C7571FBDF6EB136 /* RAMAnimatedTabBarController.swift */,
+				EDFE91911F24EC46B39D05597C205A9C /* RAMAnimatedTabBarController+BottomLine.swift */,
+				46CD433F8014A3040FF09FAB72FC2725 /* RAMBadge.swift */,
+				E40532CF671F0CFF522A5A9617FAB813 /* RAMBounceAnimation.swift */,
+				A156FA3ACA4284606E38FE2017001298 /* RAMFrameItemAnimation.swift */,
+				F19DD2EA9DBA784E934A797411ECFB96 /* RAMFumeAnimation.swift */,
+				34494CE10C05F8D45C04EAB4A4512228 /* RAMItemAnimationProtocol.swift */,
+				5506BBAC632B72B3157FED03F1AA2EC1 /* RAMRotationAnimation.swift */,
+				FF95AA539D575F624308740F6A5E6A46 /* RAMTransitionItemAnimations.swift */,
+				13EAD777ED1E292CF3D1160E0B12867B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SCLAlertView";
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1499D54DCAC154A57AE3E6AB1A34A6F2 /* Pods */,
-				AF88768F4E2DFD25BA0A1036434F6A66 /* Products */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				818F010B1B958B2B9F6D486A43BB0DFA /* Pods */,
+				482E7A77E9BA800A5CC93D308890BD92 /* Products */,
 				E1079358509660783A2026067B0F9ABD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E1079358509660783A2026067B0F9ABD /* Targets Support Files */ = {
@@ -217,39 +307,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E9B5D6C6976C8CE22780301A93A69612 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				39B51A16D3FAB58019A45FFA78D7A19A /* RAMAnimatedTabBarController.modulemap */,
-				DBE8EF62FABD82551E580FAF4A3CA815 /* RAMAnimatedTabBarController.xcconfig */,
-				89DEC7EBE4E9FA36AA0E184050567A14 /* RAMAnimatedTabBarController-dummy.m */,
-				5013BD683C1BCDE80B9F1B2D64EF62A8 /* RAMAnimatedTabBarController-Info.plist */,
-				0A0B29638861FB70A02C90579DB82BD7 /* RAMAnimatedTabBarController-prefix.pch */,
-				6DAE0CEF900C95FF69FE185D680C470C /* RAMAnimatedTabBarController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RAMAnimatedTabBarController";
-			sourceTree = "<group>";
-		};
-		F5321AB68C03B712B0F6BBD8DB98A096 /* SCLAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				82CEA5C8D6A5037595AD9B7A34813AB2 /* SCLAlertView.swift */,
-				D1B8E4992D1CE99878DC6FB69C026EF0 /* SCLExtensions.swift */,
-				C603014CFB98A13489F0EC27442A5929 /* Support Files */,
-			);
-			name = SCLAlertView;
-			path = SCLAlertView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2568FC6A790CFA387B96DBED7E0BC776 /* Headers */ = {
+		3284C20472AFF6A63A7094CE20A5E3D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69437A6AA2866A54AACCCEA857664F47 /* SCLAlertView-umbrella.h in Headers */,
+				3EC52C8A6BABE4066E466519E31C3E03 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EA5294FEC5A6C33991E1807794D233 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A655566414FFCBF7CAC212CF91EA4 /* Pods-HealthKitInAction-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,31 +334,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9E42E7C8953B01AD2217D721ACF37B5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54F4B7B8ED26C5E5E767EA7610FC2145 /* Pods-HealthKitInAction-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BFDA00C65F518DB1968B639EE0811A59 /* Pods-HealthKitInAction */ = {
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 795BF4CA4528EEAA32F120067DA6DC30 /* Build configuration list for PBXNativeTarget "Pods-HealthKitInAction" */;
+			buildConfigurationList = E597D9C69E5746DA8B67E92762F51127 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
 			buildPhases = (
-				E9E42E7C8953B01AD2217D721ACF37B5 /* Headers */,
-				C569E0938FF1312CA667EA9287F0C527 /* Sources */,
-				6C4723AA2F6B0C13FEA3CFE8EF1C9CA4 /* Frameworks */,
-				DA8A94780931E6FA34A649C6D7BFE431 /* Resources */,
+				3284C20472AFF6A63A7094CE20A5E3D5 /* Headers */,
+				932E116E7F8DB07C1FC8E89E03A4FE57 /* Sources */,
+				574AFD59673947704DF970986A16AE22 /* Frameworks */,
+				3FE6BD24F8EC4E53E8CAB3C04F3A6884 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				029677655E6D2CCCD05D5A7685F7B4FC /* PBXTargetDependency */,
-				EE6E5C96999ABFB7F2CFB79EC1142011 /* PBXTargetDependency */,
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFDA00C65F518DB1968B639EE0811A59 /* Pods-HealthKitInAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86956AEB8EAA38895331BCEF5826F8C3 /* Build configuration list for PBXNativeTarget "Pods-HealthKitInAction" */;
+			buildPhases = (
+				83EA5294FEC5A6C33991E1807794D233 /* Headers */,
+				A2BE9A55D3C97C83C43FCA82C032E06C /* Sources */,
+				28227F929CC187BDBBC2A9491F4139B8 /* Frameworks */,
+				E5D8EC0FEE734CC88914E3ED84836468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138A456257C3F46850603C2CE05AC658 /* PBXTargetDependency */,
+				728E54A713C6F23BD92B91A83A102D2D /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthKitInAction";
 			productName = "Pods-HealthKitInAction";
@@ -310,24 +393,6 @@
 			productReference = 6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EBBBD336E2C1CE47CB387CBD269D6E58 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
-			buildPhases = (
-				2568FC6A790CFA387B96DBED7E0BC776 /* Headers */,
-				C62043287224DE5DD6688B165F41EA2E /* Sources */,
-				03B5D362B75E1F27D5669A43D702BC8A /* Frameworks */,
-				ECF5EFE0E25156C527D3ED02193610A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SCLAlertView;
-			productName = SCLAlertView;
-			productReference = 962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,18 +410,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AF88768F4E2DFD25BA0A1036434F6A66 /* Products */;
+			productRefGroup = 482E7A77E9BA800A5CC93D308890BD92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				BFDA00C65F518DB1968B639EE0811A59 /* Pods-HealthKitInAction */,
 				DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */,
-				E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3FE6BD24F8EC4E53E8CAB3C04F3A6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69C21D48B6C2AFC53C38446FE362661A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,14 +437,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA8A94780931E6FA34A649C6D7BFE431 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECF5EFE0E25156C527D3ED02193610A0 /* Resources */ = {
+		E5D8EC0FEE734CC88914E3ED84836468 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,42 +464,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C569E0938FF1312CA667EA9287F0C527 /* Sources */ = {
+		932E116E7F8DB07C1FC8E89E03A4FE57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E46DE1E65431DBA843813E38257588 /* Pods-HealthKitInAction-dummy.m in Sources */,
+				32FB52A492FD7BC12D9C81F24A666483 /* IQBarButtonItem.swift in Sources */,
+				8CC2218B480DA0CD72829A5C4AEA8929 /* IQInvocation.swift in Sources */,
+				D55D066AB7BEC71F39DB7DA6532BA6DA /* IQKeyboardManager.swift in Sources */,
+				19C12C18218D5085864EB2DB2FA8B63C /* IQKeyboardManagerConstants.swift in Sources */,
+				FB37642881B8D1191B1E60BBE6AAD4D7 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				6A02E3C707A1A104DCDD85953BC8BDEC /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				361B77EA491A6D2EA9053D734B8FA5BA /* IQNSArray+Sort.swift in Sources */,
+				330DA634EB85DB4EAE9371494F1FB8E4 /* IQPreviousNextView.swift in Sources */,
+				F15EBF3D52451407FC4611128D846BEC /* IQTextView.swift in Sources */,
+				C0BD556D43C16A24EDEFD9F3C16236E1 /* IQTitleBarButtonItem.swift in Sources */,
+				0FC427138A0D11CC18C78972E6D30E57 /* IQToolbar.swift in Sources */,
+				08E427A032ADAB64225CA01C76E7E3A9 /* IQUIScrollView+Additions.swift in Sources */,
+				681342E5C18E296BF40684DDDC04D88B /* IQUITextFieldView+Additions.swift in Sources */,
+				16C70105CC51E3C73D1107FBEF78F521 /* IQUIView+Hierarchy.swift in Sources */,
+				77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				176D580D34B1957DF53471C4A2A9F3CD /* IQUIViewController+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62043287224DE5DD6688B165F41EA2E /* Sources */ = {
+		A2BE9A55D3C97C83C43FCA82C032E06C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98733C303FFBD5D956071ED6940935F /* SCLAlertView-dummy.m in Sources */,
-				298E4F1A7F3DFD1F512EF7561C18CD20 /* SCLAlertView.swift in Sources */,
-				5394C4DCB14CD55B19D088F07382AE14 /* SCLExtensions.swift in Sources */,
+				0E4935C3FF49F4C66C5EE79A06B7E850 /* Pods-HealthKitInAction-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		029677655E6D2CCCD05D5A7685F7B4FC /* PBXTargetDependency */ = {
+		138A456257C3F46850603C2CE05AC658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 46F30C20BB161078B04501061D3353CB /* PBXContainerItemProxy */;
+		};
+		728E54A713C6F23BD92B91A83A102D2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RAMAnimatedTabBarController;
 			target = DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */;
-			targetProxy = BA84A3032B07A0A5A39A6B2F3A418CB1 /* PBXContainerItemProxy */;
-		};
-		EE6E5C96999ABFB7F2CFB79EC1142011 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SCLAlertView;
-			target = E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */;
-			targetProxy = E3A1BFC7F5AC32226DF829AC923F20B2 /* PBXContainerItemProxy */;
+			targetProxy = 9F1A8ED5408FCA9ECBBF8EAB7C432EBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02A5D9DC7945843B3C0607C631CF0C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5916CFBF573924BB7A2DAEADE42083F /* Pods-HealthKitInAction.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,44 +617,9 @@
 			};
 			name = Debug;
 		};
-		1C84D9AA6638F950F99D7901D6179582 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B34BCA15A512ACC0F6BB7E8E7E3219 /* SCLAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4E48E5D9F03805D4E468037BEEA2D7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBE8EF62FABD82551E580FAF4A3CA815 /* RAMAnimatedTabBarController.xcconfig */;
+			baseConfigurationReference = EFAB3A7F2782CA09CB6553779C238952 /* RAMAnimatedTabBarController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,79 +652,7 @@
 			};
 			name = Debug;
 		};
-		710FB60B9BB3B28F97959C10DDCB9C39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBE8EF62FABD82551E580FAF4A3CA815 /* RAMAnimatedTabBarController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
-				PRODUCT_NAME = RAMAnimatedTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6E3B17BFFE1D37408081ED2F9739642 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B34BCA15A512ACC0F6BB7E8E7E3219 /* SCLAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ACACA0305DE38A8984C404CC553A0D95 /* Debug */ = {
+		6FA25D5C7A51F409D1BE0260CF62321A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04C23CF7D4663D1EB8E0D11BBF28476C /* Pods-HealthKitInAction.debug.xcconfig */;
 			buildSettings = {
@@ -672,6 +684,113 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		710FB60B9BB3B28F97959C10DDCB9C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAB3A7F2782CA09CB6553779C238952 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9427C8024A8A7CB02296BFB7489D39A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AA419B89BC2DF1A6142486C16265B7 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1D9974A71D54848365031E252EB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AA419B89BC2DF1A6142486C16265B7 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -738,45 +857,6 @@
 			};
 			name = Release;
 		};
-		B2DFDD18ED1470691179FBC077A638B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5916CFBF573924BB7A2DAEADE42083F /* Pods-HealthKitInAction.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HealthKitInAction/Pods-HealthKitInAction.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -785,15 +865,6 @@
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		795BF4CA4528EEAA32F120067DA6DC30 /* Build configuration list for PBXNativeTarget "Pods-HealthKitInAction" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACACA0305DE38A8984C404CC553A0D95 /* Debug */,
-				B2DFDD18ED1470691179FBC077A638B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -807,11 +878,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBBBD336E2C1CE47CB387CBD269D6E58 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+		86956AEB8EAA38895331BCEF5826F8C3 /* Build configuration list for PBXNativeTarget "Pods-HealthKitInAction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C84D9AA6638F950F99D7901D6179582 /* Debug */,
-				A6E3B17BFFE1D37408081ED2F9739642 /* Release */,
+				6FA25D5C7A51F409D1BE0260CF62321A /* Debug */,
+				02A5D9DC7945843B3C0607C631CF0C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E597D9C69E5746DA8B67E92762F51127 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1D9974A71D54848365031E252EB792 /* Debug */,
+				9427C8024A8A7CB02296BFB7489D39A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

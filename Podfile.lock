@@ -1,20 +1,20 @@
 PODS:
+  - IQKeyboardManagerSwift (6.4.0)
   - RAMAnimatedTabBarController (5.0.1)
-  - SCLAlertView (0.8)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - RAMAnimatedTabBarController
-  - SCLAlertView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
     - RAMAnimatedTabBarController
-    - SCLAlertView
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
   RAMAnimatedTabBarController: ec36fba2fa4679fd36db55098e3477fe9bd79f52
-  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
 
-PODFILE CHECKSUM: e8ac5af243bc1d3e9879b342c9b5c004e99a0899
+PODFILE CHECKSUM: 6adf5d2064f805ea8ade1185a9cd1302b142c4e0
 
 COCOAPODS: 1.7.3

@@ -13,7 +13,7 @@
         <!--Item1-->
         <scene sceneID="Nbc-dG-U8c">
             <objects>
-                <viewController id="tfl-84-m1Z" userLabel="Item1" sceneMemberID="viewController">
+                <viewController id="tfl-84-m1Z" userLabel="Item1" customClass="DrinkViewController" customModule="HealthKitInAction" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tqq-g3-Jim">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,9 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="saveConsumedWater:" destination="tfl-84-m1Z" eventType="touchUpInside" id="JuG-TG-EHF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zs1-1I-MVj">
                                 <rect key="frame" x="286.5" y="358" width="60" height="40"/>
@@ -59,6 +62,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="tfl-84-m1Z" id="0VW-jj-ykq"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,6 +86,10 @@
                             <outlet property="animation" destination="TGK-Zr-eng" id="LB2-Px-mey"/>
                         </connections>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="saveBtn" destination="J9k-f8-UtA" id="GcC-Vy-gba"/>
+                        <outlet property="waterConsumedInputField" destination="vnI-Gg-QTM" id="XZg-OT-tx7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6y-VO-Kgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="TGK-Zr-eng" customClass="RAMBounceAnimation" customModule="HealthKitInAction" customModuleProvider="target"/>

@@ -8,15 +8,24 @@
 
 import UIKit
 import HealthKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    let healthStore = HKHealthStore()
+    
+    func applicationShouldRequestHealthAuthorization(_ application: UIApplication) {
+        HKHealthStore().handleAuthorizationForExtension { (success, error) in
+            
+        }
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
         return true
     }
 
