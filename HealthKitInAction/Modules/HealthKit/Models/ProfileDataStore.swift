@@ -7,6 +7,7 @@
 //
 
 import HealthKit
+import QMUIKit
 
 class ProfileDataStore {
     
@@ -48,11 +49,19 @@ class ProfileDataStore {
                                       end: date)
         
         HKHealthStore().save(sample) { (success, error) in
-            guard let error = error else { print("Successfully saved \(type)"); return }
+            guard let error = error else {
+                print("Successfully saved \(type)");
+                DispatchQueue.main.async {
+                    QMUITips.showSucceed("Successfully saved \(type)")
+                }
+                return
+            }
             
             print("Error saving \(type) \(error.localizedDescription)")
+            DispatchQueue.main.async {
+                QMUITips.showInfo("Error saving \(type) \(error.localizedDescription)")
+            }
         }
-        
     }
     
     class func queryQuantitySum(for quantityType:HKQuantityType, unit:HKUnit,

@@ -8,4 +8,5 @@ target 'HealthKitInAction' do
   # Pods for HealthKitInAction
   pod 'RAMAnimatedTabBarController'
   pod 'IQKeyboardManagerSwift'
+  pod 'QMUIKit'
 end
